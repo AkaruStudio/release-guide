@@ -1,0 +1,21 @@
+{
+  "name": "release-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc-sidebar": "node generate-sidebar.js",
+    "doc-serve": "docsify serve .",
+    "doc": "run-p doc-sidebar doc-serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "docsify-cli": "^4.3.0",
+    "nano-markdown": "^1.2.0",
+    "npm-run-all": "^4.1.5",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {}
+}
